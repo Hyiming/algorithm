@@ -1,0 +1,1 @@
+package 滑动窗口最大值;import java.util.ArrayDeque;import java.util.ArrayList;public class Solution {    public ArrayList<Integer> maxInWindows(int [] num, int size)    {        ArrayList<Integer> result  = new ArrayList<>();        ArrayDeque<Integer> q = new ArrayDeque<>();        return result ;    }}

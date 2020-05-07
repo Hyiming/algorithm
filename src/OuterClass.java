@@ -1,0 +1,1 @@
+public class OuterClass{    private float f=1.0f;    //插入代码到这里    static class InnerClass{        protected static float func(){return 0;};    }}

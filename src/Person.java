@@ -1,0 +1,1 @@
+class Person {    public float aFun(float a,float b){return 0;}}class Child extends Person{    public int aFun(int  a,  int  b){return 0; }}
