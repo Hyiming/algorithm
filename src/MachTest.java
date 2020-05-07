@@ -1,1 +1,0 @@
-/** * @auther YiMing Huang * @date 2020/3/4 20:37 */public class MachTest {    public static void main(String[] args) {        String reg = "/model/[a-zA-Z0-9-_]{0,32}/[0-9\\.\\-]{1,10}/download";        String path = "/model/20acfb202f3941c1b73589b037940f71/1.0.0/download";        boolean a =  path.matches(reg);        System.out.println(a);    }}
